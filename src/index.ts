@@ -1,4 +1,4 @@
-export default function compare<T>(a: T, b: T, order?: T[]): number {
+export default function compare<T>(a: T, b: T, order?: T[]): 1 | 0 | -1 {
     if (order) {
         return compare(order.indexOf(a), order.indexOf(b));
     }
