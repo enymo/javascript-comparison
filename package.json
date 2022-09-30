@@ -1,6 +1,6 @@
 {
   "name": "@enymo/comparison",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Minimal library to implement three-way-comparison",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -9,7 +9,10 @@
     "entry": [
       "src/index.ts"
     ],
-    "format": ["esm", "cjs"],
+    "format": [
+      "esm",
+      "cjs"
+    ],
     "dts": true
   },
   "scripts": {
