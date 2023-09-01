@@ -1,6 +1,6 @@
 {
   "name": "@enymo-internal/comparison",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Minimal library to implement three-way-comparison",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
