@@ -1,5 +1,5 @@
 {
-  "name": "@enymo-internal/comparison",
+  "name": "@enymo/comparison",
   "version": "1.0.4",
   "description": "Minimal library to implement three-way-comparison",
   "main": "dist/index.js",
@@ -20,13 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.internal.enymo.com/enymo/library/javascript-comparison.git"
+    "url": "git+https://github.com/enymo/javascript-comparison.git"
   },
   "author": "enymo GmbH",
-  "license": "UNLICENSED",
-  "publishConfig": {
-    "@enymo-internal:registry": "https://gitlab.internal.enymo.com/api/v4/projects/73/packages/npm/"
-  },
+  "license": "MIT",
   "devDependencies": {
     "tsup": "^6.2.3",
     "typescript": "^4.7.4"
